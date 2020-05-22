@@ -52,9 +52,3 @@ for word in words:
   converted_phrase = converted_phrase + converted_word + ' '
 
 print(f'converted_prhase: {converted_phrase}')
-# LOL claro! SPLit es solo para strings. X"D
-
-# for part in letters:
-#   print(part.split())
-
-# print(letters)
