@@ -41,9 +41,9 @@ morse = {
 morse_code = input("Escriba el código morse: ")
 
 # Decode the morse code.
-decoded_words = ''
 morse_words = morse_code.split()
 
+decoded_words = ''
 for morse_word in morse_words:
   morse_letters = morse_word.split('|')
 
