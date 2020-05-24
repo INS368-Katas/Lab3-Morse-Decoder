@@ -1,6 +1,7 @@
-letter_to_morse = {
+# Mapping of morse letters with Latin letters.
+morse = {
   '.-': 'A',
-  '-..': 'B',
+  '-...': 'B',
   '-.-.': 'C',
   '-..': 'D',
   '.': 'E',
@@ -36,25 +37,20 @@ letter_to_morse = {
   '----.': '9',
   '-----': '0',
 }
-converted_phrase = ''
+
 morse_code = input("Escriba el código morse: ")
 
-# Separate letters by |
-words = morse_code.split()
+# Decode the morse code.
+decoded_words = ''
+morse_words = morse_code.split()
 
-for word in words:
-  converted_word = ''
-  letters = word.split('|')
+for morse_word in morse_words:
+  morse_letters = morse_word.split('|')
 
-  for letter in letters:
-    converted_word = converted_word + letter_to_morse[letter]
+  decoded_word = ''
+  for letter in morse_letters:
+    decoded_word = decoded_word + morse[letter]
 
-  converted_phrase = converted_phrase + converted_word + ' '
+  decoded_words = decoded_words + decoded_word + ' '
 
-print(f'converted_prhase: {converted_phrase}')
-# LOL claro! SPLit es solo para strings. X"D
-
-# for part in letters:
-#   print(part.split())
-
-# print(letters)
+print(decoded_words)
