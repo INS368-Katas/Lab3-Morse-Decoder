@@ -5,5 +5,5 @@ Decode any alphanumeric morse code into latin characters.
 ## Members
 
 - Alejandro Encarnación - 1086298
-- Zhan? - 
+- Jun Huo He Zhang - 1088620 
 - Mikhael Santos Fernández - 1088621
