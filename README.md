@@ -1,4 +1,4 @@
-# L3 - Morse Decoder (Grupo #6)
+# L3 - Morse Decoder (Group #6)
 
 Decode any alphanumeric morse code into latin characters.
 
