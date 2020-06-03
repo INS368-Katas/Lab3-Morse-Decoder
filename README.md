@@ -1,9 +1,23 @@
-# L3 - Morse Decoder (Group #6)
+# Morse Decoder
 
-Decode any alphanumeric morse code into latin characters.
+The assignment #3 required to create a program to decode any alphanumeric morse code into latin characters. 
 
-## Members
+## Usage example
 
-- Alejandro Encarnación - 1086298
-- Jun Huo He Zhang - 1088620 
-- Mikhael Santos Fernández - 1088621
+According to the instructions for user input, every morse code character must be separated by pipes **|**. Also, each morse word must be separated by space. See the following example: 
+
+```
+  -|....|. .|-.|-..
+```
+
+The output would be the following: 
+
+```
+  THE END
+```
+
+## Authors
+
+- **Alejandro Encarnación**
+- **Jun Huo He Zhang** 
+- **Mikhael Santos Fernández**
